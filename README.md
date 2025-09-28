@@ -18,6 +18,9 @@ This project includes a frontend for users to view products and an admin panel t
 - **Add Product** – Add new products  
 - **Edit Product** – Edit existing products  
 - **Delete Product** – Remove products from the catalog  
+![Homepage](screenshots/index.png)  
+![Admin Dashboard](screenshots/dashboard.png)  
+![Product Detail](screenshots/product_detail.png)
 
 ---
 
