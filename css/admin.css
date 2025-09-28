@@ -1,0 +1,90 @@
+/* ===== Admin Dashboard ===== */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f6fa;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Add New Button */
+a[href*="add_product.php"] {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 16px;
+    background: #27ae60;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+a[href*="add_product.php"]:hover {
+    background: #219150;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table th {
+    background: #34495e;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tr:hover {
+    background: #ecf0f1;
+}
+
+/* Action Links */
+td a {
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #fff;
+    margin: 0 3px;
+    display: inline-block;
+}
+
+td a[href*="edit_product.php"] {
+    background: #3498db;
+}
+
+td a[href*="edit_product.php"]:hover {
+    background: #2980b9;
+}
+
+td a[href*="delete_product.php"] {
+    background: #e74c3c;
+}
+
+td a[href*="delete_product.php"]:hover {
+    background: #c0392b;
+}
