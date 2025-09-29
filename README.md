@@ -34,7 +34,7 @@ This project includes a frontend for users to view products and an admin panel t
 | `admin/`                     | Admin panel files (dashboard, add/edit/delete)  |
 | `css/`                       | Stylesheets for frontend and admin panel        |
 | `images/`                    | Product images                                   |
-| `127_0_0_1.sql`              | Database export file                             |
+| `product_catalog_db`              | Database export file                             |
 | `screenshots/`               | Screenshots for README display                   |
 
 ---
